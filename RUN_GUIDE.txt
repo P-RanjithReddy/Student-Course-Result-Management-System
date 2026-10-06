@@ -1,0 +1,30 @@
+QUICK START GUIDE
+
+1. Extract the ZIP file.
+2. Open the extracted folder in VS Code.
+3. Open VS Code Terminal.
+4. Run:
+   pip install -r requirements.txt
+
+5. Open MySQL Workbench.
+6. Open schema.sql and execute it.
+7. Open database.py.
+8. Replace:
+   YOUR_MYSQL_PASSWORD
+   with your actual MySQL password.
+9. Save database.py.
+10. In VS Code Terminal run:
+    python main.py
+
+START DEMO:
+- Add Course
+- Add Student
+- Add Result
+- View Results
+- Open Reports
+
+If Python command does not work, try:
+    py main.py
+
+If pip does not work, try:
+    py -m pip install -r requirements.txt

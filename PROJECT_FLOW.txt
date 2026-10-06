@@ -1,0 +1,39 @@
+PROJECT FLOW
+
+                    START
+                      |
+                      v
+              Connect to MySQL
+                      |
+                      v
+                 MAIN MENU
+        ______________|________________
+       |              |               |
+       v              v               v
+   STUDENTS        COURSES         RESULTS
+       |              |               |
+     CRUD           CRUD        Add/View Results
+       |              |               |
+       |______________|_______________|
+                      |
+                      v
+                   REPORTS
+                      |
+          JOIN / COUNT / AVG / MAX
+                      |
+                      v
+                    EXIT
+
+
+DATABASE RELATIONSHIP
+
+students
+   |
+   | student_id (PK)
+   |
+   v
+results
+   ^
+   | course_id (FK)
+   |
+courses
